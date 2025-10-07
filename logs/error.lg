@@ -1,0 +1,2 @@
+{"level":"error","message":"Error creating the user: Error: User with this email already exists","service":"aquisitions-api"}
+{"level":"error","message":"Signup error User with this email already exists","service":"aquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///app/src/services/auth.service.js:25:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signUp (file:///app/src/controllers/auth.controller.js:21:18)"}

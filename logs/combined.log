@@ -24,3 +24,17 @@
 {"level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisitions-api","userAgent":"HTTPie"}
 {"level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisitions-api","userAgent":"HTTPie"}
 {"level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"Hello from Acquisitions!","service":"aquisitions-api"}
+{"level":"warn","message":"Rate limit exceeded","path":"/","service":"aquisitions-api","userAgent":"HTTPie"}
+{"level":"warn","message":"Rate limit exceeded","path":"/","service":"aquisitions-api","userAgent":"HTTPie"}
+{"level":"warn","message":"Rate limit exceeded","path":"/","service":"aquisitions-api","userAgent":"HTTPie"}
+{"level":"warn","message":"Rate limit exceeded","path":"/","service":"aquisitions-api","userAgent":"HTTPie"}
+{"level":"warn","message":"Rate limit exceeded","path":"/api","service":"aquisitions-api","userAgent":"HTTPie"}
+{"level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisitions-api","userAgent":"HTTPie"}
+{"level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisitions-api"}
+{"level":"warn","message":"Rate limit exceeded","path":"/api/sign-up","service":"aquisitions-api","userAgent":"HTTPie"}
+{"level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisitions-api"}
+{"level":"info","message":"User contact@anthonyodx.com created successfully","service":"aquisitions-api"}
+{"level":"info","message":"User registered successfully: contact@anthonyodx.com","service":"aquisitions-api"}
+{"level":"error","message":"Error creating the user: Error: User with this email already exists","service":"aquisitions-api"}
+{"level":"error","message":"Signup error User with this email already exists","service":"aquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///app/src/services/auth.service.js:25:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signUp (file:///app/src/controllers/auth.controller.js:21:18)"}
