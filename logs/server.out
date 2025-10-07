@@ -1,0 +1,6 @@
+
+> acquisitions@1.0.0 dev
+> node --watch src/index.js
+
+Listening on http://localhost:3000
+Completed running 'src/index.js'. Waiting for file changes before restarting...
