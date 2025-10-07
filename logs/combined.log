@@ -18,3 +18,9 @@
 {"level":"info","message":"User ant@anthonyodx.com authenticated successfully","service":"aquisitions-api"}
 {"level":"info","message":"User signed in successfully: ant@anthonyodx.com","service":"aquisitions-api"}
 {"level":"info","message":"User signed out","service":"aquisitions-api"}
+{"level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisitions-api","userAgent":"HTTPie"}
+{"level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisitions-api","userAgent":"HTTPie"}
+{"level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisitions-api","userAgent":"HTTPie"}
+{"level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisitions-api","userAgent":"HTTPie"}
+{"level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisitions-api","userAgent":"HTTPie"}
+{"level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisitions-api","userAgent":"HTTPie"}
