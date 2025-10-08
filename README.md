@@ -114,3 +114,6 @@ docker compose -f docker-compose.prod.yml run --rm app npm run db:migrate
 - `pg`/native modules: The image uses Debian slim for better native module compatibility (e.g., bcrypt). If you switch base images, ensure `bcrypt` remains functional.
 - Connection errors in dev: Confirm `NEON_API_KEY`, `NEON_PROJECT_ID`, and `PARENT_BRANCH_ID` are set and valid. Ensure `NEON_LOCAL=true` and `DATABASE_URL` points to `neon-local:5432`.
 - Migrations: Drizzle CLI reads `DATABASE_URL` from env; make sure you run it in the same container environment as the app or provide `DATABASE_URL` explicitly.
+
+## TESTS
+Testing CI/CD Pipelines
