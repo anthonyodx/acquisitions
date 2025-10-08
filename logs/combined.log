@@ -38,3 +38,37 @@
 {"level":"info","message":"User registered successfully: contact@anthonyodx.com","service":"aquisitions-api"}
 {"level":"error","message":"Error creating the user: Error: User with this email already exists","service":"aquisitions-api"}
 {"level":"error","message":"Signup error User with this email already exists","service":"aquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///app/src/services/auth.service.js:25:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signUp (file:///app/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"Hello from Acquisitions!","service":"aquisitions-api"}
+{"level":"info","message":"Getting users...","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"aquisitions-api"}
+{"level":"info","message":"User contact@anthonyodx.com authenticated successfully","service":"aquisitions-api"}
+{"level":"info","message":"User signed in successfully: contact@anthonyodx.com","service":"aquisitions-api"}
+{"level":"info","message":"User contact@anthonyodx.com authenticated successfully","service":"aquisitions-api"}
+{"level":"info","message":"User signed in successfully: contact@anthonyodx.com","service":"aquisitions-api"}
+{"level":"info","message":"User contact@anthonyodx.com authenticated successfully","service":"aquisitions-api"}
+{"level":"info","message":"User signed in successfully: contact@anthonyodx.com","service":"aquisitions-api"}
+{"level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: contact@anthonyodx.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"aquisitions-api"}
+{"level":"info","message":"User admin@anthonyodx.com retrieved successfully","service":"aquisitions-api"}
+{"level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: contact@anthonyodx.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 4","service":"aquisitions-api"}
+{"level":"info","message":"User jane.1759868736@example.com retrieved successfully","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: contact@anthonyodx.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 5","service":"aquisitions-api"}
+{"level":"info","message":"User contact@anthonyodx.com retrieved successfully","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: contact@anthonyodx.com (user)","service":"aquisitions-api"}
+{"level":"warn","message":"Access denied for user contact@anthonyodx.com with role user. Required: admin","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: contact@anthonyodx.com (user)","service":"aquisitions-api"}
+{"level":"warn","message":"Access denied for user contact@anthonyodx.com with role user. Required: admin","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: contact@anthonyodx.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting users...","service":"aquisitions-api"}
+{"level":"info","message":"User admin@admin.com created successfully","service":"aquisitions-api"}
+{"level":"info","message":"User registered successfully: admin@admin.com","service":"aquisitions-api"}
+{"level":"warn","message":"Rate limit exceeded","path":"/api/users","service":"aquisitions-api","userAgent":"HTTPie"}
+{"level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: admin@admin.com (admin)","service":"aquisitions-api"}
+{"level":"info","message":"Deleting user: 1","service":"aquisitions-api"}
+{"level":"info","message":"User admin@anthonyodx.pro deleted successfully","service":"aquisitions-api"}
+{"level":"info","message":"User admin@anthonyodx.pro deleted successfully","service":"aquisitions-api"}
