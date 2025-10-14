@@ -1,4 +1,10 @@
-# Acquisitions – Dockerized with Neon Database
+# Aegis – Dockerized with Neon Database
+
+A comprehensive user authentication and management service using a modern, secure, and scalable technology stack. 
+
+- A RESTful API, using Node.js and Express, features JWT-based authorization, role-based access control, and a multi-layered security architecture with Arcjet, Helmet, and secure cookie handling.
+- The data layer uses the serverless Neon Postgres database with the type-safe Drizzle ORM.
+- The entire application is containerized with Docker and includes a CI/CD pipeline in GitHub Actions for automated testing, code quality checks, and multi-platform deployment.
 
 This project is containerized for both local development with Neon Local and production with Neon Cloud. The application uses Drizzle ORM and automatically switches DB drivers based on environment.
 
@@ -104,16 +110,5 @@ docker compose -f docker-compose.prod.yml run --rm app npm run db:migrate
 - .env.development – dev variables including Neon Local config
 - .env.production – prod variables (no Neon Local)
 
-## Security and secrets
-
-- Do not hardcode secrets. Use environment variables. In CI/CD or your orchestrator, inject `DATABASE_URL` and other secrets securely.
-- For local development, you may populate `.env.development`. For production, prefer secret stores to `.env.production` files.
-
-## Troubleshooting
-
-- `pg`/native modules: The image uses Debian slim for better native module compatibility (e.g., bcrypt). If you switch base images, ensure `bcrypt` remains functional.
-- Connection errors in dev: Confirm `NEON_API_KEY`, `NEON_PROJECT_ID`, and `PARENT_BRANCH_ID` are set and valid. Ensure `NEON_LOCAL=true` and `DATABASE_URL` points to `neon-local:5432`.
-- Migrations: Drizzle CLI reads `DATABASE_URL` from env; make sure you run it in the same container environment as the app or provide `DATABASE_URL` explicitly.
-
-## TESTS
+## Testing
 Testing CI/CD Pipelines
